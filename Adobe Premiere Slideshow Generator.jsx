@@ -58,6 +58,9 @@ var videoTracks = slideshowSequence.videoTracks;
 
 // get the first video track (where all the images will be)
 var videoTrackOne = videoTracks[0];
+        
+//sets the time variable to figure out frameLength
+var time = new Time();
 
 // the length of one frame in premiere pro time (comes in handy later)
 var frameLength = time.seconds;
